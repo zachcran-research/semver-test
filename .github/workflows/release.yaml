@@ -26,16 +26,13 @@ jobs:
           
       - name: Update changelog.txt
         run: |
-          echo "${{ steps.dryrun_tag_version.outputs.changelog }}" >> changelog.txt
+          echo "${{ steps.dryrun_tag_version.outputs.changelog }}" | cat - changelog.txt > changelog.txt
          
       - name: Commit and push version changes in files 
         uses: actions-x/commit@v2
         with:
           branch: main
           message: "ci: Version ${{ steps.dryrun_tag_version.outputs.new_tag }}"
-      
-      - name: Checkout repository
-        uses: actions/checkout@v2
       
       - name: Bump version and push tag
         uses: mathieudutour/github-tag-action@v6.0
