@@ -1,3 +1,21 @@
+## [1.1.0](https://github.com/zachcran-research/semver-test/compare/v1.0.3...v1.1.0) (2022-02-28)
+
+
+### Features
+
+* prepend new changelog to changelog ([b380795](https://github.com/zachcran-research/semver-test/commit/b380795d34d5f09f3aaea4b31e70982fb0284990))
+
+
+### Bug Fixes
+
+* changelog should get overwritten now ([9a28277](https://github.com/zachcran-research/semver-test/commit/9a28277bf0823f219af1d2c541e793fd0e8e8d37))
+
+
+### Continuous Integration
+
+* Version v1.0.3 ([aa5ea10](https://github.com/zachcran-research/semver-test/commit/aa5ea106bbc347cd29018c2017d9168439a2405f))
+
+
 ## [1.0.0](https://github.com/zachcran-research/semver-test/compare/v0.2.0...v1.0.0) (2022-02-28)
 
 
