@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -36,3 +38,9 @@ jobs:
         with:
           branch: main
           message: "ci: Version update ${{ steps.semver_tag.outputs.new_tag }}"
+          
+      - uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: ${{ steps.semver_tag.outputs.changelog }}
+          tag: ${{ steps.semver_tag.outputs.new_tag }}
