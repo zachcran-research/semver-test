@@ -30,3 +30,9 @@ jobs:
       - name: Update Changelog.txt
         run: |
           echo "${{ steps.semver_tag.outputs.changelog }}" >> changelog.txt
+         
+      - name: Commit and push version changes in files 
+        uses: actions-x/commit@v2
+        with:
+          branch: master
+          message: "ci: Version update ${{ steps.semver_tag.outputs.new_tag }}"
