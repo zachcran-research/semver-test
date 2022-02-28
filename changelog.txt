@@ -1,0 +1,26 @@
+# [0.1.0-371109c](https://github.com/zachcran-research/semver-test/compare/0.0.0...v0.1.0-371109c) (2022-02-28)
+
+
+### Bug Fixes
+
+* bump github-tag-action to v4.3.1 ([](https://github.com/zachcran-research/semver-test/commit/))
+* bump version ([](https://github.com/zachcran-research/semver-test/commit/))
+* change 'master' to 'main' branch ([](https://github.com/zachcran-research/semver-test/commit/))
+* checkout v2 instead of master ([](https://github.com/zachcran-research/semver-test/commit/))
+* commit version changes ([](https://github.com/zachcran-research/semver-test/commit/))
+* output changelog to file ([](https://github.com/zachcran-research/semver-test/commit/))
+* output versioning to 'main', not 'master'... ([](https://github.com/zachcran-research/semver-test/commit/))
+* Print and update versioning and changelog ([](https://github.com/zachcran-research/semver-test/commit/))
+* Test a change ([](https://github.com/zachcran-research/semver-test/commit/))
+* trigger patch version bump now that CI is working ([](https://github.com/zachcran-research/semver-test/commit/))
+* turn off dry run... ([](https://github.com/zachcran-research/semver-test/commit/))
+
+
+### Features
+
+* remove dry run completely ([](https://github.com/zachcran-research/semver-test/commit/))
+* try to make version actually increase ([](https://github.com/zachcran-research/semver-test/commit/))
+
+
+
+
