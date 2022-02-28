@@ -34,5 +34,5 @@ jobs:
       - name: Commit and push version changes in files 
         uses: actions-x/commit@v2
         with:
-          branch: master
+          branch: main
           message: "ci: Version update ${{ steps.semver_tag.outputs.new_tag }}"
