@@ -88,3 +88,20 @@
 * Version ([4a0a07b](https://github.com/zachcran-research/semver-test/commit/4a0a07b1c9ecf11b8479a9042683d2bfe4786570))
 
 
+## [1.0.0](https://github.com/zachcran-research/semver-test/compare/v0.2.0...v1.0.0) (2022-02-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* I am testing if this works
+
+### Features
+
+* hopefully add version update to release ([8635240](https://github.com/zachcran-research/semver-test/commit/863524080604a8e5dfdd29e0f880e22f746a9425))
+
+
+### Continuous Integration
+
+* Version v0.2.0 ([0654ea7](https://github.com/zachcran-research/semver-test/commit/0654ea75e122e8eea71ed2fe7c10b0762620e962))
+
+
