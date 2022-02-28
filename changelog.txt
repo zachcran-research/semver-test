@@ -75,3 +75,16 @@
 
 
 
+## [0.2.0](https://github.com/zachcran-research/semver-test/compare/v0.1.0...v0.2.0) (2022-02-28)
+
+
+### Features
+
+* fix versioning id ([71a13e4](https://github.com/zachcran-research/semver-test/commit/71a13e49b795c8d1d27434fa8aa8883479b24804))
+
+
+### Continuous Integration
+
+* Version ([4a0a07b](https://github.com/zachcran-research/semver-test/commit/4a0a07b1c9ecf11b8479a9042683d2bfe4786570))
+
+
