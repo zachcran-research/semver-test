@@ -27,7 +27,7 @@ jobs:
       - name: Update VERSION.txt
         run: |
           echo "Writing new version (${{ steps.semver_tag.outputs.new_version }}) to VERSION.txt..."
-          echo "${{ steps.semver_tag.outputs.new_version }}" >> VERSION.txt
+          echo "${{ steps.semver_tag.outputs.new_version }}" > VERSION.txt
           
       - name: Update Changelog.txt
         run: |
