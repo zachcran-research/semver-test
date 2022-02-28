@@ -51,3 +51,13 @@
 
 
 
+# [0.1.0-c8fcefa](https://github.com/zachcran-research/semver-test/compare/v0.1.0-d4121c5...v0.1.0-c8fcefa) (2022-02-28)
+
+
+### Bug Fixes
+
+* generate release notes ([](https://github.com/zachcran-research/semver-test/commit/))
+
+
+
+
