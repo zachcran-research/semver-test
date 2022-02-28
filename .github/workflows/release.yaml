@@ -13,10 +13,11 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Bump version and push tag
-        uses: hennejg/github-tag-action@v4.3.1
+        uses: mathieudutour/github-tag-action@v6.0
         id: semver_tag
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          release_branches: main
   
       - name: Print versioning
         run: |
