@@ -22,7 +22,7 @@ jobs:
       - name: Update VERSION.txt
         run: |
           echo "Writing new version (${{ steps.dryrun_tag_version.outputs.new_version }}) to VERSION.txt..."
-          echo "${{ steps.dryrun_tag_version.outputs.new_version }}\n" > VERSION.txt
+          echo "${{ steps.dryrun_tag_version.outputs.new_version }}" > VERSION.txt
           
       - name: Update changelog.txt
         run: |
