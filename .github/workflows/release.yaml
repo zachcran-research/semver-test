@@ -14,23 +14,16 @@ jobs:
       
       - name: Bump version and push tag
         uses: mathieudutour/github-tag-action@v6.0
-        id: semver_tag
+        id: tag_version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          release_branches: main
-  
-      - name: Print versioning
-        run: |
-          echo "Version Info:"
-          echo "  Previous ${{ steps.semver_tag.outputs.previous_tag }}"
-          echo "  Release ${{ steps.semver_tag.outputs.new_tag }}"
           
       - name: Update VERSION.txt
         run: |
           echo "Writing new version (${{ steps.semver_tag.outputs.new_version }}) to VERSION.txt..."
-          echo "${{ steps.semver_tag.outputs.new_version }}" > VERSION.txt
+          echo "${{ steps.semver_tag.outputs.new_version }}\n" > VERSION.txt
           
-      - name: Update Changelog.txt
+      - name: Update changelog.txt
         run: |
           echo "${{ steps.semver_tag.outputs.changelog }}" >> changelog.txt
          
@@ -38,11 +31,12 @@ jobs:
         uses: actions-x/commit@v2
         with:
           branch: main
-          message: "ci: Version update ${{ steps.semver_tag.outputs.new_tag }}"
+          message: "ci: Version ${{ steps.semver_tag.outputs.new_tag }}"
           
       - uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          name: Release ${{ steps.semver_tag.outputs.new_version }}
           body: ${{ steps.semver_tag.outputs.changelog }}
           tag: ${{ steps.semver_tag.outputs.new_tag }}
           generateReleaseNotes: True
