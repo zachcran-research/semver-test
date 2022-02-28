@@ -20,23 +20,23 @@ jobs:
           
       - name: Update VERSION.txt
         run: |
-          echo "Writing new version (${{ steps.semver_tag.outputs.new_version }}) to VERSION.txt..."
-          echo "${{ steps.semver_tag.outputs.new_version }}\n" > VERSION.txt
+          echo "Writing new version (${{ steps.tag_version.outputs.new_version }}) to VERSION.txt..."
+          echo "${{ steps.tag_version.outputs.new_version }}\n" > VERSION.txt
           
       - name: Update changelog.txt
         run: |
-          echo "${{ steps.semver_tag.outputs.changelog }}" >> changelog.txt
+          echo "${{ steps.tag_version.outputs.changelog }}" >> changelog.txt
          
       - name: Commit and push version changes in files 
         uses: actions-x/commit@v2
         with:
           branch: main
-          message: "ci: Version ${{ steps.semver_tag.outputs.new_tag }}"
+          message: "ci: Version ${{ steps.tag_version.outputs.new_tag }}"
           
       - uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          name: Release ${{ steps.semver_tag.outputs.new_version }}
-          body: ${{ steps.semver_tag.outputs.changelog }}
-          tag: ${{ steps.semver_tag.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_version }}
+          body: ${{ steps.tag_version.outputs.changelog }}
+          tag: ${{ steps.tag_version.outputs.new_tag }}
           generateReleaseNotes: True
