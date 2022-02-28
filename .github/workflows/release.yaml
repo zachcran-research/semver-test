@@ -29,4 +29,4 @@ jobs:
           
       - name: Update Changelog.txt
         run: |
-          echo "${{ steps.semver_tag.outputs.new_version }}" >> changelog.txt
+          echo "${{ steps.semver_tag.outputs.changelog }}" >> changelog.txt
