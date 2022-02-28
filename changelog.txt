@@ -39,3 +39,16 @@
 * Version v1.0.1 ([2f14130](https://github.com/zachcran-research/semver-test/commit/2f14130c9c82d46c87e43427e1a1fab3e9b2bbc9))
 
 
+### [1.0.3](https://github.com/zachcran-research/semver-test/compare/v1.0.2...v1.0.3) (2022-02-28)
+
+
+### Bug Fixes
+
+* remove previous tag from release notes ([570f0e3](https://github.com/zachcran-research/semver-test/commit/570f0e387069693dfc1a3084bbe6f8482b0c003d))
+
+
+### Continuous Integration
+
+* Version v1.0.2 ([47bc48a](https://github.com/zachcran-research/semver-test/commit/47bc48a4d82ed682419aec3783dfb6ab18a320cc))
+
+
