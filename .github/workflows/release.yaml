@@ -44,3 +44,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           body: ${{ steps.semver_tag.outputs.changelog }}
           tag: ${{ steps.semver_tag.outputs.new_tag }}
+          generateReleaseNotes: True
