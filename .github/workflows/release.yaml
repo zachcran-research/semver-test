@@ -54,7 +54,7 @@ jobs:
       - name: Get latest commit SHA
         run: |
           echo "latest_sha=`git rev-parse HEAD`" >> $GITHUB_ENV
-          echo "Latest commit SHA: ${{ env.latest_sha }}"
+          echo "Latest commit SHA: `git rev-parse HEAD`"
 
       # Generate tags for real this time
       - name: Bump version and push tag
