@@ -63,7 +63,7 @@ jobs:
         id: tag_version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_sha: $LATEST_SHA
+          commit_sha: `git rev-parse HEAD`
           
       - name: Create release
         uses: ncipollo/release-action@v1
