@@ -59,11 +59,13 @@ jobs:
 
       # Generate tags for real this time
       - name: Bump version and push tag
+        run: |
+          export LATEST_SHA=`git rev-parse HEAD`
         uses: mathieudutour/github-tag-action@v6.0
         id: tag_version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_sha: `git rev-parse HEAD`
+          commit_sha: $LATEST_SHA
           
       - name: Create release
         uses: ncipollo/release-action@v1
