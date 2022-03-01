@@ -1,3 +1,16 @@
+### [1.2.4](https://github.com/zachcran-research/semver-test/compare/v1.2.3...v1.2.4) (2022-03-01)
+
+
+### Bug Fixes
+
+* Remove extra 'v' on version commit ([2fb0e58](https://github.com/zachcran-research/semver-test/commit/2fb0e580a46a7a6f36bac4ca6c0385e968a98773))
+
+
+### Continuous Integration
+
+* Updated files for vv1.2.3 ([b8a7acf](https://github.com/zachcran-research/semver-test/commit/b8a7acf870a24f5c5ef977191265bdfd48eafb05))
+
+
 ### [1.2.3](https://github.com/zachcran-research/semver-test/compare/v1.2.2...v1.2.3) (2022-03-01)
 
 
