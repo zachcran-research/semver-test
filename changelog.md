@@ -6,6 +6,25 @@
 * debug again ([f01dd6f](https://github.com/zachcran-research/semver-test/commit/f01dd6f5c488b7af723dd45ef38ad55629049aff))
 * debug again ([4a25c35](https://github.com/zachcran-research/semver-test/commit/4a25c35e25f502b00142a08102ab9cd5bf41c0b8))
 * debug again ([8875d90](https://github.com/zachcran-research/semver-test/commit/8875d9030e0b32d6c258e9ee9b2113194c5f86ac))
+* debug again ([6b8c769](https://github.com/zachcran-research/semver-test/commit/6b8c769d0edda0532f02d4beef6e5957f52a055e))
+
+
+### Continuous Integration
+
+* Updated files for v1.3.3 ([6ddea27](https://github.com/zachcran-research/semver-test/commit/6ddea27096262f8d139afd9941d206caa388bc22))
+* Updated files for v1.3.4 ([9551ff7](https://github.com/zachcran-research/semver-test/commit/9551ff7394143c63a7561fa4e5bac30c85e72ecb))
+* Updated files for v1.3.4 ([667cabd](https://github.com/zachcran-research/semver-test/commit/667cabd7d30d76f2f9b6de8084c996d2aac04b04))
+* Updated files for v1.3.4 ([5a97e85](https://github.com/zachcran-research/semver-test/commit/5a97e85ff2fbfb66781b4d274100ff6fd76d8eca))
+
+
+### [1.3.4](https://github.com/zachcran-research/semver-test/compare/v1.3.3...v1.3.4) (2022-03-01)
+
+
+### Bug Fixes
+
+* debug again ([f01dd6f](https://github.com/zachcran-research/semver-test/commit/f01dd6f5c488b7af723dd45ef38ad55629049aff))
+* debug again ([4a25c35](https://github.com/zachcran-research/semver-test/commit/4a25c35e25f502b00142a08102ab9cd5bf41c0b8))
+* debug again ([8875d90](https://github.com/zachcran-research/semver-test/commit/8875d9030e0b32d6c258e9ee9b2113194c5f86ac))
 
 
 ### Continuous Integration
