@@ -53,7 +53,7 @@ jobs:
 
       - name: Debug
         run: |
-          echo "Head SHA: ${{ github.event.pull_request.head.sha }}"
+          echo "Head SHA: ${{ github.sha }}"
 
       # Generate tags for real this time
       - name: Bump version and push tag
