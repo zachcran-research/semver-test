@@ -57,6 +57,7 @@ jobs:
         id: tag_version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_sha: ${{ github.event.pull_request.head.sha }}
           
       - name: Create release
         uses: ncipollo/release-action@v1
