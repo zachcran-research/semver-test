@@ -1,3 +1,16 @@
+### [1.1.3](https://github.com/zachcran-research/semver-test/compare/v1.1.2...v1.1.3) (2022-03-01)
+
+
+### Bug Fixes
+
+* switch changelog to markdown ([1e2f4f2](https://github.com/zachcran-research/semver-test/commit/1e2f4f200ba6a7506c2f1e6e9253b32c9909d564))
+
+
+### Continuous Integration
+
+* Version v1.1.2 ([19c6232](https://github.com/zachcran-research/semver-test/commit/19c62322dcbff046978df1587862b02f737fda21))
+
+
 ### [1.1.2](https://github.com/zachcran-research/semver-test/compare/v1.1.1...v1.1.2) (2022-03-01)
 
 
