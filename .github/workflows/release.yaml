@@ -53,7 +53,7 @@ jobs:
 
       - name: Debug
         run: |
-          echo "Head SHA: ${{ github.sha }}"
+          echo "Head SHA: `git rev-parse HEAD`"
 
       # Generate tags for real this time
       - name: Bump version and push tag
