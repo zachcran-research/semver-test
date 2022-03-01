@@ -53,7 +53,7 @@ jobs:
 
       - name: Get latest commit SHA
         run: |
-          LATEST_SHA=git rev-parse HEAD
+          LATEST_SHA=`git rev-parse HEAD`
           echo "Latest commit SHA: $LATEST_SHA"
 
       # Generate tags for real this time
