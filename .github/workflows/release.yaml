@@ -53,19 +53,16 @@ jobs:
 
       - name: Get latest commit SHA
         run: |
-          export LATEST_SHA=`git rev-parse HEAD`
-          echo "::set-env name=LATEST_SHA::$LATEST_SHA"
-          echo "Latest commit SHA: $LATEST_SHA"
+          echo "latest_sha=`git rev-parse HEAD`" >> $GITHUB_ENV
+          echo "Latest commit SHA: ${{ env.latest_sha }}"
 
       # Generate tags for real this time
       - name: Bump version and push tag
-        run: |
-          export LATEST_SHA=`git rev-parse HEAD`
         uses: mathieudutour/github-tag-action@v6.0
         id: tag_version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_sha: $LATEST_SHA
+          commit_sha: ${{ env.latest_sha }}
           
       - name: Create release
         uses: ncipollo/release-action@v1
