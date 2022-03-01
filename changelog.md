@@ -1,3 +1,11 @@
+### [1.4.1](https://github.com/zachcran-research/semver-test/compare/v1.4.0...v1.4.1) (2022-03-01)
+
+
+### Bug Fixes
+
+* remove 'ci' tag to see if it removes the section ([a13693b](https://github.com/zachcran-research/semver-test/commit/a13693b2c66aedf594977c496ed92188cc8f4a32))
+
+
 ## [1.4.0](https://github.com/zachcran-research/semver-test/compare/v1.3.5...v1.4.0) (2022-03-01)
 
 
