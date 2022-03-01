@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  build:
+  version_update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,27 +14,33 @@ jobs:
         
       - name: Get version tag and changelog to write
         uses: mathieudutour/github-tag-action@v6.0
-        id: dryrun_tag_version
+        id: tag_version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           dry_run: true
           
       - name: Update VERSION.txt
         run: |
-          echo "Writing new version (${{ steps.dryrun_tag_version.outputs.new_version }}) to VERSION.txt..."
-          echo "${{ steps.dryrun_tag_version.outputs.new_version }}" > VERSION.txt
+          echo "Writing new version (${{ steps.tag_version.outputs.new_version }}) to VERSION.txt..."
+          echo "${{ steps.tag_version.outputs.new_version }}" > VERSION.txt
           
       - name: Update changelog.md
         run: |
-          echo "${{ steps.dryrun_tag_version.outputs.changelog }}" | cat - changelog.md > changelog_new.md
+          echo "${{ steps.tag_version.outputs.changelog }}" | cat - changelog.md > changelog_new.md
           mv changelog_new.md changelog.md
          
       - name: Commit and push version changes in files 
         uses: actions-x/commit@v2
         with:
           branch: main
-          message: "ci: Version ${{ steps.dryrun_tag_version.outputs.new_tag }}"
+          message: "ci: Version ${{ steps.tag_version.outputs.new_tag }}"
       
+  release:
+    needs: version_update
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
       - name: Bump version and push tag
         uses: mathieudutour/github-tag-action@v6.0
         id: tag_version
