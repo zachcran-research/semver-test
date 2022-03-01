@@ -1,3 +1,11 @@
+## [1.6.0](https://github.com/zachcran-research/semver-test/compare/v1.5.0...v1.6.0) (2022-03-01)
+
+
+### Features
+
+* Update again to bump minor version ([78576e4](https://github.com/zachcran-research/semver-test/commit/78576e4c1b1b4f2326633ae89aad25a2c94fb827))
+
+
 ## [1.5.0](https://github.com/zachcran-research/semver-test/compare/v1.4.1...v1.5.0) (2022-03-01)
 
 
