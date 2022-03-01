@@ -1,3 +1,6 @@
+### [1.6.1](https://github.com/zachcran-research/semver-test/compare/v1.6.0...v1.6.1) (2022-03-01)
+
+
 ## [1.6.0](https://github.com/zachcran-research/semver-test/compare/v1.5.0...v1.6.0) (2022-03-01)
 
 
