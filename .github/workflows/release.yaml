@@ -37,7 +37,7 @@ jobs:
         uses: actions-x/commit@v2
         with:
           branch: main
-          message: "ci: Updated files for ${{ steps.tag_version.outputs.new_tag }}"
+          message: "Updated files for ${{ steps.tag_version.outputs.new_tag }}"
       
   release:
     needs: version_update
