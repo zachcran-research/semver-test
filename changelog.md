@@ -1,3 +1,16 @@
+### [1.1.4](https://github.com/zachcran-research/semver-test/compare/v1.1.3...v1.1.4) (2022-03-01)
+
+
+### Bug Fixes
+
+* don't checkout again ([e36989a](https://github.com/zachcran-research/semver-test/commit/e36989ac296141895357a4e237c9bc77e042b21c))
+
+
+### Continuous Integration
+
+* Version v1.1.3 ([b67d5cc](https://github.com/zachcran-research/semver-test/commit/b67d5ccca785edd0e12a67d75ba47a68f313bc4a))
+
+
 ### [1.1.3](https://github.com/zachcran-research/semver-test/compare/v1.1.2...v1.1.3) (2022-03-01)
 
 
