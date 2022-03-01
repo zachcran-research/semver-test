@@ -1,3 +1,16 @@
+## [1.3.0](https://github.com/zachcran-research/semver-test/compare/v1.2.5...v1.3.0) (2022-03-01)
+
+
+### Features
+
+* Set release tag to after version files ([4aea8d9](https://github.com/zachcran-research/semver-test/commit/4aea8d9c460ed4b1d2fee0610c2213fae58a9128))
+
+
+### Continuous Integration
+
+* Updated files for v1.2.5 ([48624fb](https://github.com/zachcran-research/semver-test/commit/48624fbaf7e9f2e64695aaf98df5908bb196c1d0))
+
+
 ### [1.2.5](https://github.com/zachcran-research/semver-test/compare/v1.2.4...v1.2.5) (2022-03-01)
 
 
