@@ -54,6 +54,7 @@ jobs:
       - name: Get latest commit SHA
         run: |
           export LATEST_SHA=`git rev-parse HEAD`
+          echo "::set-env name=LATEST_SHA::$LATEST_SHA"
           echo "Latest commit SHA: $LATEST_SHA"
 
       # Generate tags for real this time
