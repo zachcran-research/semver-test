@@ -1,3 +1,16 @@
+### [1.3.3](https://github.com/zachcran-research/semver-test/compare/v1.3.2...v1.3.3) (2022-03-01)
+
+
+### Bug Fixes
+
+* debug again ([99c0027](https://github.com/zachcran-research/semver-test/commit/99c0027274fad0b1586c3a12e02b0ec681359eb9))
+
+
+### Continuous Integration
+
+* Updated files for v1.3.2 ([5588c5b](https://github.com/zachcran-research/semver-test/commit/5588c5b60f89e5d146af508768fb6cc4736ce047))
+
+
 ### [1.3.2](https://github.com/zachcran-research/semver-test/compare/v1.3.1...v1.3.2) (2022-03-01)
 
 
