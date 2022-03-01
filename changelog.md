@@ -1,3 +1,11 @@
+### [1.3.5](https://github.com/zachcran-research/semver-test/compare/v1.3.4...v1.3.5) (2022-03-01)
+
+
+### Bug Fixes
+
+* Update latest SHA logging ([11526f6](https://github.com/zachcran-research/semver-test/commit/11526f62eb55a979c7aea7b616520d0821ef7e31))
+
+
 ### [1.3.4](https://github.com/zachcran-research/semver-test/compare/v1.3.3...v1.3.4) (2022-03-01)
 
 
