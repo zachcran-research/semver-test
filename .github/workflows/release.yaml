@@ -51,6 +51,10 @@ jobs:
         with:
           ref: main
 
+      - name: Debug
+        run: |
+          echo "Head SHA: ${{ github.event.pull_request.head.sha }}"
+
       # Generate tags for real this time
       - name: Bump version and push tag
         uses: mathieudutour/github-tag-action@v6.0
