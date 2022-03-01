@@ -1,3 +1,22 @@
+### [1.6.1](https://github.com/zachcran-research/semver-test/compare/v1.6.0...v1.6.1) (2022-03-01)
+
+
+## [1.6.0](https://github.com/zachcran-research/semver-test/compare/v1.5.0...v1.6.0) (2022-03-01)
+
+
+### Features
+
+* Update again to bump minor version ([78576e4](https://github.com/zachcran-research/semver-test/commit/78576e4c1b1b4f2326633ae89aad25a2c94fb827))
+
+
+## [1.5.0](https://github.com/zachcran-research/semver-test/compare/v1.4.1...v1.5.0) (2022-03-01)
+
+
+### Features
+
+* Test how sub-commit messages work in a squash and merge ([#1](https://github.com/zachcran-research/semver-test/issues/1)) ([6637a10](https://github.com/zachcran-research/semver-test/commit/6637a10cff08e85ec73ba4fefdcb8783f57e6cbd))
+
+
 ### [1.4.1](https://github.com/zachcran-research/semver-test/compare/v1.4.0...v1.4.1) (2022-03-01)
 
 
