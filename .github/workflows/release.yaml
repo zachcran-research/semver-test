@@ -35,9 +35,6 @@ jobs:
           branch: main
           message: "ci: Version ${{ steps.dryrun_tag_version.outputs.new_tag }}"
       
-      - name: Checkout repository again with ci push
-        uses: actions/checkout@v2
-      
       - name: Bump version and push tag
         uses: mathieudutour/github-tag-action@v6.0
         id: tag_version
