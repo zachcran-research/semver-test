@@ -51,9 +51,10 @@ jobs:
         with:
           ref: main
 
-      - name: Debug
+      - name: Get latest commit SHA
         run: |
-          echo "Head SHA: `git rev-parse HEAD`"
+          LATEST_SHA=git rev-parse HEAD
+          echo "Latest commit SHA: $LATEST_SHA"
 
       # Generate tags for real this time
       - name: Bump version and push tag
@@ -61,7 +62,7 @@ jobs:
         id: tag_version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_sha: ${{ github.event.pull_request.head.sha }}
+          commit_sha: $LATEST_SHA
           
       - name: Create release
         uses: ncipollo/release-action@v1
