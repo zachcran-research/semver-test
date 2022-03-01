@@ -1,3 +1,16 @@
+## [1.2.0](https://github.com/zachcran-research/semver-test/compare/v1.1.4...v1.2.0) (2022-03-01)
+
+
+### Features
+
+* separate jobs for version update and release ([de46588](https://github.com/zachcran-research/semver-test/commit/de46588980ed234202427f6cc6ab9b682a88e0a8))
+
+
+### Continuous Integration
+
+* Version v1.1.4 ([4599d4d](https://github.com/zachcran-research/semver-test/commit/4599d4dc43ffc4995da679ed53c5d1631e11074b))
+
+
 ### [1.1.4](https://github.com/zachcran-research/semver-test/compare/v1.1.3...v1.1.4) (2022-03-01)
 
 
