@@ -1,4 +1,4 @@
-name: Bump version
+name: Version Update and Release
 on:
   push:
     branches:
@@ -24,10 +24,10 @@ jobs:
           echo "Writing new version (${{ steps.dryrun_tag_version.outputs.new_version }}) to VERSION.txt..."
           echo "${{ steps.dryrun_tag_version.outputs.new_version }}" > VERSION.txt
           
-      - name: Update changelog.txt
+      - name: Update changelog.md
         run: |
-          echo "${{ steps.dryrun_tag_version.outputs.changelog }}" | cat - changelog.txt > changelog_new.txt
-          mv changelog_new.txt changelog.txt
+          echo "${{ steps.dryrun_tag_version.outputs.changelog }}" | cat - changelog.md > changelog_new.md
+          mv changelog_new.md changelog.md
          
       - name: Commit and push version changes in files 
         uses: actions-x/commit@v2
