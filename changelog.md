@@ -1,3 +1,11 @@
+## [1.4.0](https://github.com/zachcran-research/semver-test/compare/v1.3.5...v1.4.0) (2022-03-01)
+
+
+### Features
+
+* Testing version commit fix ([0fa162b](https://github.com/zachcran-research/semver-test/commit/0fa162b4f1656dff1864be565278d109bc1cb00c))
+
+
 ### [1.3.5](https://github.com/zachcran-research/semver-test/compare/v1.3.4...v1.3.5) (2022-03-01)
 
 
