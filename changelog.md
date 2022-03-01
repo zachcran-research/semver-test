@@ -1,3 +1,16 @@
+### [1.2.2](https://github.com/zachcran-research/semver-test/compare/v1.2.1...v1.2.2) (2022-03-01)
+
+
+### Bug Fixes
+
+* add comments to the workflow ([52b4aeb](https://github.com/zachcran-research/semver-test/commit/52b4aeb1292cfa6c7836345266f158510862c1a6))
+
+
+### Continuous Integration
+
+* Version v1.2.1 ([9156fd7](https://github.com/zachcran-research/semver-test/commit/9156fd7d579927fe855a5a9e0b863e203b7ca278))
+
+
 ### [1.2.1](https://github.com/zachcran-research/semver-test/compare/v1.2.0...v1.2.1) (2022-03-01)
 
 
