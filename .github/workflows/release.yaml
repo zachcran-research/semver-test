@@ -37,7 +37,7 @@ jobs:
         uses: actions-x/commit@v2
         with:
           branch: main
-          message: "ci: Version ${{ steps.tag_version.outputs.new_tag }}"
+          message: "ci: Updated files for v${{ steps.tag_version.outputs.new_tag }}"
       
   release:
     needs: version_update
@@ -45,8 +45,11 @@ jobs:
     permissions: 
       contents: write
     steps:
+      # Try to check out the files just committed
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ref: main
 
       # Generate tags for real this time
       - name: Bump version and push tag
