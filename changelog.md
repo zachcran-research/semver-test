@@ -1,3 +1,19 @@
+## [1.7.0](https://github.com/zachcran-research/semver-test/compare/v1.6.1...v1.7.0) (2022-03-01)
+
+
+### Features
+
+* third commit ([b0c6443](https://github.com/zachcran-research/semver-test/commit/b0c6443bacca8b9ad865d52219f651f141955053))
+
+
+### Bug Fixes
+
+* first commit ([24fb53b](https://github.com/zachcran-research/semver-test/commit/24fb53b81f3c9c78b242606d33245e390524c910))
+* first commit test ([e511323](https://github.com/zachcran-research/semver-test/commit/e51132380ed2ccad9672eb058305e771f9cd8f90))
+* second commit ([6fe4642](https://github.com/zachcran-research/semver-test/commit/6fe46427aff1c04bd9238f9ce9510bea4da78cbe))
+* Third test ([91b2840](https://github.com/zachcran-research/semver-test/commit/91b28404c57255624eb3949a0071c3dce31aa642))
+
+
 ### [1.6.1](https://github.com/zachcran-research/semver-test/compare/v1.6.0...v1.6.1) (2022-03-01)
 
 
