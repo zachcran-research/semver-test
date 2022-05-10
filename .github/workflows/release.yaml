@@ -34,7 +34,7 @@ jobs:
       
       # Commit the new changes to the version and changelog
       - name: Commit and push version changes in files 
-        uses: actions-x/commit@v2
+        uses: actions-x/commit@v6
         with:
           branch: main
           message: "Updated files for ${{ steps.tag_version.outputs.new_tag }}"
